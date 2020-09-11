@@ -1,7 +1,7 @@
 {
   "name": "BK Weather",
   "short_name": "BKWeather",
-  "start_url": "/index.html",
+  "start_url": "public/index.html",
   "display": "standalone",
   "background_color": "#2B32B2",
   "theme_color": "#2B32B2",

@@ -89,7 +89,7 @@ function displayResults(weather) {
   let iconElement = document.querySelector(
     ".current-temperature__icon-container"
   );
-  iconElement.innerHTML = ` <img src="/images/icons/${weather.current.weather[0].icon}.png" alt="Icon Weather, ${weather.current.weather[0].description} icon" />`;
+  iconElement.innerHTML = ` <img src="../images/icons/${weather.current.weather[0].icon}.png" alt="Icon Weather, ${weather.current.weather[0].description} icon" />`;
   //getting deescription
   let descElement = document.querySelector(".current-temperature__summary");
   descElement.innerText = weather.current.weather[0].description;

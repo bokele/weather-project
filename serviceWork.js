@@ -2,12 +2,14 @@ const staticCacheName = "site-static-v2";
 const dynamicCacheName = "site-dynamic-v1";
 const assets = [
   "/",
-  "/index.html",
+  "public/index.html",
   "/js/app.js",
   "/css/app.css",
   "/images/icons/unknown.png",
   "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap",
   "/pages/fallback.html",
+  "/.firebaseserc",
+  "/firebase.json",
 ];
 
 // cache size limit function
